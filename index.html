@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="宇藤裕也の自己紹介">
+  <title>MyPortfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--
+      headerタグの作成
+      ・ロゴの設定をします
+      ・navタグとaタグとliタグを使っていきます
+  -->
+  <header>
+      <nav>
+          <ul class="menu-list">
+              <li><a href="">H<span class="green-underline">om</span>e</a></li>
+              <li><a href="">A<span class="green-underline">bou</span>t</a></li>
+              <li><a href="">P<span class="green-underline">roject</span>s</a></li>
+          </ul>
+      </nav>
+  </header>
+
+  <!-- 
+      mainタグの作成
+      ・name&picturer用とAbout用とProjectsとContactの箱を作成する
+      →divタグを使っていきます
+  -->
+  <div class="block-main">
+      <div class="box-introduce">
+          <!-- 画像の箱 -->
+          <div class="my-picture">
+          <img src="img/myprofile.jpg" alt="プロフィール画像">
+          </div>
+          <!-- 名前の箱 -->
+          <div class="my-name">
+          <h1><span>Utou Yuuya</span></h1>
+              <ul>
+                  <li><p>宇藤裕也</p></li>
+                  <li><p>Web Application Developer</p></li>
+              </ul>
+            </div>
+      </div>
+
+      <!-- Aboutの箱 -->
+      <div class="item-list">
+          <h2>About</h2>
+              <ul>
+                  <li><span class="span-left">------</span></li>
+                  <li><img src="img/settings.svg" alt="歯車のアイコン"></li>
+                  <li><span class="span-right">------</span></li>
+              </ul>
+
+          <p class="my-skill">HTML / CSS / PHP / MySQL / Laravel / Adobe XD</p>
+          <p class="my-self">ここに自己紹介を書きます。ここに自己紹介を書きます。ここに自己紹介を書きます。ここに自己紹介を書きます。ここに自己紹介を書きます。ここに自己紹介を書きます。</p>
+          <p class="support">support@techis.io</p>
+          
+          <ul class="icon-list">
+              <li><img src="img/github.svg" alt="Githubアイコン"></li>
+              <li><img src="img/in.svg" alt="inアイコン" class="in-picture"></li>
+          </ul>
+      </div>
+    
+      <!-- Projectsの箱 -->
+      <div class="projects-list">
+          <h2>Projects</h2>
+              <ul>
+                  <li><span class="span-left">------</span></li>
+                  <li><img src="img/Projects.png" alt="歯車のアイコン"></li>
+                  <li><span class="span-right">------</span></li>
+              </ul>
+
+            <div class="box-project">
+
+              <ul class="project-list">
+                  <li>
+                    <img src="img/twitter-clone.png" alt="Twitterクローンの画像">
+                    <h3>Twitterクローン</h3>
+                    <span>HTML / CSS / PHP / MySQL</span>
+                    <div class="link">
+                        <a href="">Webサイト</a>
+                        <a href="">GitHub</a>
+                    </div>
+                  </li>
+
+                  <li>
+                    <img src="img/NETFLIX-clone.png" alt="NETFLIXクローンの画像">
+                    <h3>NETFLIXクローン</h3>
+                    <span>HTML / CSS / PHP / MySQL</span>
+                    <div class="link">
+                        <a href="">Webサイト</a>
+                        <a href="">GitHub</a>
+                    </div>
+                  </li>
+              </ul>
+            </div>
+      </div>
+
+      <!-- Contactの箱 -->
+      <div class="contact">
+          <h2>contact</h2>
+              <ul>
+                  <li><span class="span-left">------</span></li>
+                  <li><img src="img/call.svg" alt="電話のアイコン"></li>
+                  <li><span class="span-right">------</span></li>
+              </ul>
+            <div class="contact-tool">
+                <div class="tel" onclick="">
+                    <img src="img/phone.png" alt="">
+                    <div class="tool-box">
+                    <span>Phone</span>
+                    </div>
+                    <p>+12 345 6789</p>
+                </div>
+                <div class="email" onclick="">
+                    <img src="img/email.png" alt="">
+                    <div class="tool-box">
+                    <span>Mail</span>
+                    </div>
+                    <p>Support@techis.com</p>
+                </div>
+            </div>
+      </div>
+  </div>
+  <footer>
+    <p>© Utou Yuuya All rights reserved</p>
+  </footer>
+</body>
+</html>
